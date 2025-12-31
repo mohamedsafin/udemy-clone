@@ -71,16 +71,12 @@ body{
    
 }                                                                                                                                                   
 .course-card{
-    display: flex;
-    flex-direction: column;
+    width: 250px
 }
 .recommended__container{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: flex-start;
-    gap: 16px;
-    margin-top: 10px;
 
 }
 .topics__container{
@@ -116,4 +112,12 @@ body{
     justify-content: space-between;
     margin: 20px;
     align-items: center;
+}
+.topics__container p:hover{
+    cursor: pointer;
+    background-color: grey;
+    color: white;
+}
+.categories p:hover{
+    background-color: darkmagenta;
 }
